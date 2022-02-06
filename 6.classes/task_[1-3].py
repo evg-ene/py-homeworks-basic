@@ -97,8 +97,6 @@ rate_lector.rate_hw(best_lector_two, 'Python', 7)
 rate_lector.rate_hw(best_lector_two, 'Python', 5)
 best_lector_two.avg_rate = sum(best_lector_two.rates[best_lector_two.courses_attached[0]]) / len(best_lector_two.rates[best_lector_two.courses_attached[0]])
 
-print(best_lector_one.__lt__(best_lector_two))
-
 print(reviewer_students, '\n')
 print(best_lector_one, '\n')
 print(best_student_one, '\n')
